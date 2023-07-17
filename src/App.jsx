@@ -90,14 +90,14 @@ function App() {
               <div className="modal-body-header-about">
                 <div
                   className="modal-body-header-about-text"
-                  style={modalMenu == "about" ? { color: "black" } : null}
+                  style={modalMenu === "about" ? { color: "black" } : null}
                 >
                   About
                 </div>
                 <div
                   className="modal-body-header-line"
                   style={
-                    modalMenu == "about" ? { border: "1px solid black" } : null
+                    modalMenu === "about" ? { border: "1px solid black" } : null
                   }
                 ></div>
               </div>
@@ -107,14 +107,14 @@ function App() {
               >
                 <div
                   className="modal-body-header-base-text"
-                  style={modalMenu == "base" ? { color: "black" } : null}
+                  style={modalMenu === "base" ? { color: "black" } : null}
                 >
                   Base Stats
                 </div>
                 <div
                   className="modal-body-header-line"
                   style={
-                    modalMenu == "base" ? { border: "1px solid black" } : null
+                    modalMenu === "base" ? { border: "1px solid black" } : null
                   }
                 ></div>
               </div>
@@ -124,14 +124,14 @@ function App() {
               >
                 <div
                   className="modal-body-header-evolution-text"
-                  style={modalMenu == "evolution" ? { color: "black" } : null}
+                  style={modalMenu === "evolution" ? { color: "black" } : null}
                 >
                   Evolution
                 </div>
                 <div
                   className="modal-body-header-line"
                   style={
-                    modalMenu == "evolution"
+                    modalMenu === "evolution"
                       ? { border: "1px solid black" }
                       : null
                   }
@@ -143,14 +143,14 @@ function App() {
               >
                 <div
                   className="modal-body-header-moves-text"
-                  style={modalMenu == "moves" ? { color: "black" } : null}
+                  style={modalMenu === "moves" ? { color: "black" } : null}
                 >
                   Moves
                 </div>
                 <div
                   className="modal-body-header-line"
                   style={
-                    modalMenu == "moves" ? { border: "1px solid black" } : null
+                    modalMenu === "moves" ? { border: "1px solid black" } : null
                   }
                 ></div>
               </div>
