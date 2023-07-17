@@ -87,7 +87,10 @@ function App() {
           </div>
           <div className="modal-body">
             <div className="modal-body-header">
-              <div className="modal-body-header-about">
+              <div
+                className="modal-body-header-about"
+                onClick={() => clickMenuModal("about")}
+              >
                 <div
                   className="modal-body-header-about-text"
                   style={modalMenu === "about" ? { color: "black" } : null}
@@ -156,21 +159,57 @@ function App() {
               </div>
             </div>
             <div className="modal-body-main">
-              <div className="modal-body-main-species" style={{display: 'flex'}}>
-                <div className="modal-body-main-text" style={{color: 'grey', width: '35%'}}>Species</div>
-                <div className="modal-body-main-text-2">{data.species.name}</div>
+              <div
+                className="modal-body-main-species"
+                style={{ display: "flex" }}
+              >
+                <div
+                  className="modal-body-main-text"
+                  style={{ color: "grey", width: "35%" }}
+                >
+                  Species
+                </div>
+                <div className="modal-body-main-text-2">
+                  {data.species.name}
+                </div>
               </div>
-              <div className="modal-body-main-height" style={{display: 'flex'}}>
-                <div className="modal-body-main-text" style={{color: 'grey', width: '35%'}}>Height</div>
+              <div
+                className="modal-body-main-height"
+                style={{ display: "flex" }}
+              >
+                <div
+                  className="modal-body-main-text"
+                  style={{ color: "grey", width: "35%" }}
+                >
+                  Height
+                </div>
                 <div className="modal-body-main-text-2">{data.height}</div>
               </div>
-              <div className="modal-body-main-weight" style={{display: 'flex'}}>
-                <div className="modal-body-main-text" style={{color: 'grey', width: '35%'}}>Weight</div>
+              <div
+                className="modal-body-main-weight"
+                style={{ display: "flex" }}
+              >
+                <div
+                  className="modal-body-main-text"
+                  style={{ color: "grey", width: "35%" }}
+                >
+                  Weight
+                </div>
                 <div className="modal-body-main-text-2">{data.weight}</div>
               </div>
-              <div className="modal-body-main-abilities" style={{display: 'flex'}}>
-                <div className="modal-body-main-text" style={{color: 'grey', width: '35%'}}>Abilities</div>
-                <div className="modal-body-main-text-2">{data.abilities[0].ability.name}</div>
+              <div
+                className="modal-body-main-abilities"
+                style={{ display: "flex" }}
+              >
+                <div
+                  className="modal-body-main-text"
+                  style={{ color: "grey", width: "35%" }}
+                >
+                  Abilities
+                </div>
+                <div className="modal-body-main-text-2">
+                  {data.abilities[0].ability.name}
+                </div>
               </div>
             </div>
           </div>
