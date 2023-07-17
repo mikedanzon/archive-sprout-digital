@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  margin: 30px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: grey;
+}
+
+.content {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.data-pokemon-wrap {
+  width: 250px;
+  height: 150px;
+  background-color: #cd5c5c;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  color: white;
+  display: flex;
+  cursor: pointer;
+}
+
+.poke-name {
+  font-size: 25px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.poke-type {
+  font-size: 15px;
+  background-color: #b22222;
+  width: 80px;
+  text-align: center;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-transform: capitalize;
+  border-radius: 20px;
+}
+
+.data-pokemon-right {
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.poke-photo > img {
+  width: 120px;
+}
